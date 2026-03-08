@@ -1,0 +1,22 @@
+body{
+    background-color: bisque;
+}
+h1{
+    color: #000000;
+    text-align: center;
+}
+ input{
+    padding: 15px;
+    border: 1px solid ;
+    border-radius: 14px;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: #000000;
+    color: bisque;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+      
