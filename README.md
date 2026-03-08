@@ -12,3 +12,6 @@ INFORMATIQUE AU COLLEGE DE PARIS SUPERIEUR DAKARTECH
 
 une application de liste de tâches (To-Do List) en HTML, CSS et JavaScript ou l'utilisateur peut ajouter des tâches, les marquer comme terminées, et les supprimer.
 
+# Fonctionalités deja fait
+
+Ajouter une tache dans la liste des taches
