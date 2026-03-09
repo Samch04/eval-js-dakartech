@@ -13,5 +13,9 @@ function Ajoutertache() {
     boutonTermine.textContent = "Termine";
     boutonTermine.onclick = () => li.style.textDecoration = "line-through";
 
-    li.append(boutonTermine);
+    const boutonSupprimer = document.createElement("button");
+    boutonSupprimer.textContent = "Supprimer";
+    boutonSupprimer.onclick = () => li.remove();
+
+    li.append(boutonTermine,boutonSupprimer);
     document.getElementById("listetache").appendChild(li); }

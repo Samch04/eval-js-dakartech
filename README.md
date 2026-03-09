@@ -17,3 +17,5 @@ une application de liste de tâches (To-Do List) en HTML, CSS et JavaScript ou l
 Ajouter une tache dans la liste des taches
 
 Barrer une tache lorsque'elle est terminé
+
+Supprimer une tache qu'on a terminer
