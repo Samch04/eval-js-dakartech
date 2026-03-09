@@ -1,16 +1,16 @@
 body{
-    background-color: bisque;
+    background-color: bisque 
 }
-h1{
+h1 {
     color: #000000;
-    text-align: center;
+    text-align: center
 }
 p{
     color: red;
 }
 input{
     padding: 15px;
-    border: 1px solid ;
+    border: 1px solid;
     border-radius: 14px;
 }
 button{
@@ -19,19 +19,17 @@ button{
     color: bisque;
     border-radius: 14px;
     cursor: pointer;
-
+    margin-left: 10px; 
 }
-ul {
+ul{
     padding: 0; 
 }
-
-li {
+li{
     background-color: rgb(193, 176, 155);
     margin: 10px 0;
     padding: 10px;
     border-radius: 14px; 
+    display: flex; 
     justify-content: space-between; 
     align-items: center;
 }
-
-      

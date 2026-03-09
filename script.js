@@ -1,15 +1,17 @@
 function Ajoutertache() {
-    const tache = document.getElementById("ajouttache").value; 
-    const messageErreur = document.getElementById("messageerreur"); 
+    const tache = document.getElementById("ajouttache").value;
+    const messageerreur = document.getElementById("messageerreur"); 
 
     if (!tache){
-        messageerreur.textContent = "Saisie la tache "; 
-        return; 
+        messageerreur.textContent = "saisie la tache."; 
+        return;
     }
+    const li = document.createElement("li");
+    li.textContent = tache
 
-    document.getElementById("listetache").innerHTML += `<li>${tache}</li>`; 
+    const boutonTermine = document.createElement("button");
+    boutonTermine.textContent = "Termine";
+    boutonTermine.onclick = () => li.style.textDecoration = "line-through";
 
-    
-    document.getElementById("ajouttache").value = ""; 
-    messageerreur.textContent = ""; 
-}
+    li.append(boutonTermine);
+    document.getElementById("listetache").appendChild(li); }

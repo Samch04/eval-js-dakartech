@@ -15,3 +15,5 @@ une application de liste de tâches (To-Do List) en HTML, CSS et JavaScript ou l
 # Fonctionalités deja fait
 
 Ajouter une tache dans la liste des taches
+
+Barrer une tache lorsque'elle est terminé
